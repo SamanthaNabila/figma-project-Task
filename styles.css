@@ -41,6 +41,7 @@ ul{
     margin-bottom: 0;
     position: fixed;
     opacity: 0.8;
+    z-index: 1000;
 }
 
 .navbar__logo {
