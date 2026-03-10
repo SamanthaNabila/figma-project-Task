@@ -67,7 +67,7 @@ ul{
   text-decoration: none;
   color: #000;
   font-size: 20px;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 .nav__icons {
@@ -283,6 +283,11 @@ ul{
 
 .product:hover .product__overlay {
   opacity: 1;
+}
+.product__actions span {
+    align-items: center;
+    display: inline-flex;
+    gap: 6px;
 }
 
 
@@ -714,14 +719,14 @@ width: 100%;
 } 
 .img10 { 
     grid-column:6 / span 1;
-    grid-row:5 / span 5;
+    grid-row:5 / span 4;
     margin-top: 10rem; 
     
     
 } 
 .img6 {
     grid-column:7 / span 2;
-    grid-row:5 / span 3; 
+    grid-row:5 / span 2; 
     margin-top: 10rem;
 
 } 
